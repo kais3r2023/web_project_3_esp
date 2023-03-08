@@ -1,0 +1,9 @@
+.place-card__description{
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: auto;
+    grid-row: 2 span;
+}

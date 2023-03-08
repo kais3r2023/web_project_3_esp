@@ -1,0 +1,7 @@
+.places{
+    width: 987px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 92px;
+}

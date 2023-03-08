@@ -1,0 +1,25 @@
+.place-card__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 355px;
+    height: 48px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    align-self: baseline;
+    background: #0278FE;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+}
+
+.place-card__button:hover{
+    background: #0063D2;
+
+}

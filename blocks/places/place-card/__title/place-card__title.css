@@ -1,0 +1,12 @@
+.place-card__title{
+    width: 533px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 106%;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: left;
+}

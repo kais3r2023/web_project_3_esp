@@ -1,0 +1,11 @@
+.place-card{
+    margin-top: 90px;
+    margin-bottom: 80px;
+    width: 984px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 460px auto;
+    row-gap: 48px;
+    column-gap: 40px;
+}
