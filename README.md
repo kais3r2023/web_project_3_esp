@@ -17,3 +17,5 @@ Este es un proyecto que muestra las ciudades natales de algunos de los empleados
 A la hora de trabajar, debes optar por exportar las imágenes directamente desde Figma; te recomendamos hacerlo para practicar más. No olvides optimizarlas [aquí](https://tinypng.com/), para que tu proyecto cargue más rápido.   
   
 ¡Mucha suerte y que te lo pases bien! 
+
+*[Enlace al proyecto en github](git@github.com:kais3r2023/web_project_3_esp.git)
