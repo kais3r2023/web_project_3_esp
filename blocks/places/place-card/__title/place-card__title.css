@@ -1,5 +1,5 @@
 .place-card__title{
-    width: 533px;
+    max-width: 533px;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;

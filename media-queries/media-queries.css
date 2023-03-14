@@ -1,36 +1,21 @@
-@media screen and (max-device-width:768px) {
-    .header__title{
-      width: 720px;
-    }
-
-    .header__image{
-      width: 768px;
-    }
-
-    .intro{
-      width: 720px;
+@media screen and (max-width:768px) {
+    .header__title, .intro, .intro__title{
+      max-width: 720px;
     }
     
-    .intro__title{
-      width: 720px;
+    .intro__quote-author{
+      margin-top: 0;
     }
-
     .grid-gallery{
       grid-template-columns:repeat(2,auto);
-      width: 720px;
+      max-width: 100%;
     }
 
-    .grid-gallery__photo{
-      width: 352px;
-      height: 264px;
-    }
-
-    .places{
-      width: 768px;
+    .places, .place-card{
+      max-width: 100%;
     }
 
     .place-card{
-      width: 768px;
       align-items: end;
       grid-template-rows: 1fr 340px auto;
       grid-template-columns: 1fr;
@@ -43,12 +28,11 @@
     .place-card__title{
       font-size: 42px;
       line-height: 46px;
-      width: 340px;
+      max-width: 340px;
     }
 
-    .place-card__image{
-      width: 340px;
-      height: 340px;
+    .place-card__image .cover__background-image{
+      max-width: 100%;
     }
 
     .place-card__heading{
@@ -60,29 +44,35 @@
     }
     
     .cover{
-      width: 768px;
+      max-width: 768px;
     }
     
-    .cover__background-image{
-      width: 768px;
+    .cover__title{
+      font-size: 32px;
+      line-height: 1.1;
     }
-}
 
-@media screen and (max-device-width:320px){
+    .cover__subtitle{
+      font-size: 14px;
+      line-height: 1.1;
+    }
+  }
+
+@media screen and (max-width:320px){
     .header__logo{
       width: 200px;
       height: 51.85px;
     }
     
     .header__title{
-      width: 288px;
+      max-width: 288px;
       line-height: 44px;
       font-size: 40px;
       margin-top: 50px;
     }
     
     .header__subtitle{
-      width: 288px;
+      max-width: 288px;
       font-size: 16px;
       font-weight: 400;
       line-height: 20px;
@@ -90,57 +80,62 @@
     }
     
     .header__image{
-      width: 320px;
-      height: 200px;
+      max-width: 320px;
       margin-top: 40px;
     }
     
     .intro{
-      width: 288px;
+      max-width: 288px;
       margin-top: 44px;
     }
     
     .intro__title{
-      width: 288px;
+      max-width: 288px;
       font-weight: 900;
       font-size: 32px;
       line-height: 35px;
     }
     
     .intro__quote{
-      width: 288px;
+      max-width: 288px;
       margin-top: 9px;
       font-weight: 400;
       font-size: 24px;
       line-height: 30px;
     }
 
-    .intro__quote_author{ 
-      width: 288px;
+    .intro__quote-author{ 
+      max-width: 288px;
       margin-top: 0;
     }
 
     .intro__paragraph{
-      width: 288px;
+      max-width: 288px;
       font-weight: 400;
       font-size: 16px;
       line-height: 163%;
-      margin-top: 0;}
+      margin-top: 0;
+    }
     .grid-gallery{
-      width: 288px;
+      max-width: 288px;
       grid-template-columns: 288px;
       grid-template-rows: repeat(8,auto);
       margin-top: 38px;
-      gap: 12px;}
-    .grid-gallery__photo{width: 288px;
-                        height: 216px;}
+      gap: 12px;
+    }
+
+    .grid-gallery__photo{
+      max-width: 288px;
+      height: auto;
+    }
+
     .places{
-      width: 320px;
+      max-width: 320px;
       margin-top: 32px;
     }
 
     .place-card{
-      width: 320px;
+      max-width: 100%;
       margin-top: 30px;
       grid-template-columns: 1fr;
       grid-template-rows:auto;
@@ -152,7 +147,7 @@
       margin-bottom: 0;
       font-weight: 900;
       font-size: 32px;
-      line-height: 35px;
+      line-height: 109%;
     }
 
     .place-card__artist{
@@ -168,9 +163,11 @@
     .place-card__heading{
       font-weight: 400;
       font-size: 12px;
-      line-height: 15px;}
+      line-height: 15px;
+    }
+
     .place-card__description{
-      width: 288px;
+      max-width: 288px;
       grid-column-start: 1;
       grid-column-end: 1;
       grid-row-start: 4;
@@ -182,7 +179,7 @@
       font-weight: 400;
       font-size: 18px;
       line-height: 22px;
-      width: 320px;
+      max-width: 320px;
     }
 
     .place-card__paragraph{
@@ -192,8 +189,7 @@
     }
 
     .place-card__image{
-      width: 320px;
-      height: 320px;
+      max-width: 320px;
       grid-column-start: 1;
       grid-column-end: 1;
       grid-row-start: 3;
@@ -201,21 +197,21 @@
     }
 
     .place-card__button{
-      width: 288px;
-      height: 48px;
+      max-width: 288px;
       grid-column-start: 1;
       grid-column-end: 1;
       grid-row-start: 5;
-      grid-row-end: 5;}
+      grid-row-end: 5;
+    }
+
     .cover{
       margin-top: 64px;
-      width: 320px;
-      height: 254px;
+      max-width: 320px;
+      height: 100%;
     }
 
     .cover__background-image{
-      width: 320px;
-      height: 254px;
+      max-width: 320px;
     }
 
     .cover__title{
@@ -229,16 +225,22 @@
       font-weight: 400;
       font-size: 14px;
       line-height: 16px;}
+
     .cover__button{
+      max-width: 288px;
       font-weight: 400;
       font-size: 14px;
       line-height: 16px;
       margin-top: 16px;
     }
+    .footer{
+      max-width: 191px;
+      height: 14px;
+      margin-top: 64px;
+    }
     .footer__author{
       font-weight: 400;
       font-size: 14px;
       line-height: 14px;
-      margin-top: 64px;
     }
 }

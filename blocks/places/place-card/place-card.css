@@ -1,8 +1,8 @@
 .place-card{
+    display: grid;
     margin-top: 90px;
     margin-bottom: 80px;
-    width: 984px;
-    display: grid;
+    max-width: 100%;
     align-items: center;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr 460px auto;

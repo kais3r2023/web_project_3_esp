@@ -1,6 +1,6 @@
 .cover__title{
     margin-bottom: 32px;
-    width: 656px;
+    max-width: 656px;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;

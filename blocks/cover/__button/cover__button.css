@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 198px;
+    max-width: 198px;
     height: 48px;
     background: #0278FE;
     border-radius: 4px;
