@@ -1,3 +1,4 @@
+/*correguí el desborde horizontal que se producía entre 768px y 320px de pantalla*/
 @media screen and (max-width:768px) {
     .header__title, .intro, .intro__title{
       max-width: 720px;
@@ -44,7 +45,7 @@
     }
     
     .cover{
-      max-width: 768px;
+      max-width: 100%;
     }
     
     .cover__title{
@@ -206,12 +207,12 @@
 
     .cover{
       margin-top: 64px;
-      max-width: 320px;
+      max-width: 100%;
       height: 100%;
     }
 
     .cover__background-image{
-      max-width: 320px;
+      max-width: 100%;
     }
 
     .cover__title{

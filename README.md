@@ -18,4 +18,4 @@ A la hora de trabajar, debes optar por exportar las imágenes directamente desde
   
 ¡Mucha suerte y que te lo pases bien! 
 
-*[Enlace al proyecto en github](git@github.com:kais3r2023/web_project_3_esp.git)
+*[Enlace al proyecto en github](https://github.com/kais3r2023/web_project_3_esp.git)
